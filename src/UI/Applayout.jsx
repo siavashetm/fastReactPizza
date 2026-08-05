@@ -7,8 +7,6 @@ function Applayout() {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
 
-  console.log(navigation);
-
   return (
     <div className="layout">
       {isLoading && <Loader />}
